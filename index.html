@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Totals Inc. | Giving Back, Moving Forward</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2d2d2d; background: #f9f7f4; }
+    header { background: #1a3c2e; padding: 18px 40px; display: flex; align-items: center; justify-content: space-between; }
+    header .logo { font-size: 1.6rem; font-weight: 700; color: #e8d5a3; letter-spacing: 1px; }
+    header nav a { color: #c9ddd4; text-decoration: none; margin-left: 28px; font-size: 0.95rem; }
+    .hero { background: linear-gradient(135deg, #1a3c2e 0%, #2e6b4e 60%, #4caf82 100%); color: #fff; text-align: center; padding: 100px 20px 80px; }
+    .hero h1 { font-size: 3rem; font-weight: 800; margin-bottom: 20px; line-height: 1.2; }
+    .hero h1 span { color: #a8e6c4; }
+    .hero p { font-size: 1.2rem; max-width: 660px; margin: 0 auto 36px; opacity: 0.9; line-height: 1.7; }
+    .btn { display: inline-block; background: #e8d5a3; color: #1a3c2e; padding: 14px 38px; border-radius: 50px; font-weight: 700; font-size: 1rem; text-decoration: none; }
+    .section { padding: 72px 20px; }
+    .section-inner { max-width: 960px; margin: 0 auto; }
+    .section h2 { font-size: 2rem; color: #1a3c2e; margin-bottom: 16px; text-align: center; }
+    .section .sub { text-align: center; color: #666; font-size: 1.05rem; margin-bottom: 48px; }
+    .pillars { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 28px; }
+    .pillar-card { background: #fff; border-radius: 16px; padding: 36px 28px; box-shadow: 0 4px 20px rgba(26,60,46,0.08); text-align: center; }
+    .pillar-icon { font-size: 2.8rem; margin-bottom: 16px; }
+    .pillar-card h3 { font-size: 1.2rem; color: #1a3c2e; margin-bottom: 10px; }
+    .pillar-card p { color: #555; font-size: 0.95rem; line-height: 1.6; }
+    .stats { background: #1a3c2e; color: #fff; }
+    .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); text-align: center; }
+    .stat-item { padding: 52px 20px; }
+    .stat-item .num { font-size: 3rem; font-weight: 800; color: #a8e6c4; }
+    .stat-item .label { font-size: 1rem; opacity: 0.85; margin-top: 6px; }
+    .alt { background: #eef6f1; }
+    .steps { display: flex; flex-direction: column; gap: 24px; max-width: 740px; margin: 0 auto; }
+    .step { display: flex; align-items: flex-start; gap: 20px; background: #fff; border-radius: 14px; padding: 28px 24px; box-shadow: 0 2px 12px rgba(26,60,46,0.06); }
+    .step-num { flex-shrink: 0; width: 44px; height: 44px; background: #1a3c2e; color: #a8e6c4; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 1.1rem; }
+    .step h4 { color: #1a3c2e; font-size: 1.05rem; margin-bottom: 6px; }
+    .step p { color: #555; font-size: 0.93rem; line-height: 1.6; }
+    .cta { background: linear-gradient(135deg, #2e6b4e, #1a3c2e); color: #fff; text-align: center; padding: 80px 20px; }
+    .cta h2 { font-size: 2.2rem; margin-bottom: 16px; }
+    .cta p { font-size: 1.1rem; opacity: 0.88; margin-bottom: 36px; max-width: 560px; margin-left: auto; margin-right: auto; }
+    .btn-outline { display: inline-block; border: 2px solid #a8e6c4; color: #a8e6c4; padding: 13px 36px; border-radius: 50px; font-weight: 700; text-decoration: none; margin-left: 14px; }
+    footer { background: #111f19; color: #8aada0; text-align: center; padding: 28px 20px; font-size: 0.88rem; }
+    footer a { color: #a8e6c4; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Totals Inc.</div>
+    <nav>
+      <a href="#mission">Mission</a>
+      <a href="#impact">Impact</a>
+      <a href="#approach">Approach</a>
+      <a href="#get-involved">Get Involved</a>
+    </nav>
+  </header>
+  <section class="hero">
+    <h1>Turning <span>Resources</span> Into Real-World Change</h1>
+    <p>Totals Inc. is a philanthropic organization committed to building equitable communities through education, economic empowerment, and environmental stewardship.</p>
+    <a href="#get-involved" class="btn">Join Our Mission</a>
+  </section>
+  <section class="section" id="mission">
+    <div class="section-inner">
+      <h2>Our Mission</h2>
+      <p class="sub">We believe that collective giving, guided by purpose and transparency, can transform lives at scale.</p>
+      <div class="pillars">
+        <div class="pillar-card">
+          <div class="pillar-icon">&#128218;</div>
+          <h3>Education Access</h3>
+          <p>Funding scholarships, after-school programs, and literacy initiatives so every child can reach their full potential.</p>
+        </div>
+        <div class="pillar-card">
+          <div class="pillar-icon">&#127807;</div>
+          <h3>Economic Empowerment</h3>
+          <p>Supporting micro-grants, workforce training, and small-business development in underserved communities.</p>
+        </div>
+        <div class="pillar-card">
+          <div class="pillar-icon">&#127758;</div>
+          <h3>Environmental Stewardship</h3>
+          <p>Backing reforestation, clean-water projects, and climate resilience programs for vulnerable regions.</p>
+        </div>
+        <div class="pillar-card">
+          <div class="pillar-icon">&#129309;</div>
+          <h3>Community Health</h3>
+          <p>Partnering with nonprofits to expand access to mental-health services, nutrition programs, and preventive care.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section stats" id="impact">
+    <div class="section-inner">
+      <div class="stats-grid">
+        <div class="stat-item"><div class="num">$4.2M+</div><div class="label">Funds Distributed</div></div>
+        <div class="stat-item"><div class="num">120+</div><div class="label">Partner Nonprofits</div></div>
+        <div class="stat-item"><div class="num">18K</div><div class="label">Lives Impacted</div></div>
+        <div class="stat-item"><div class="num">34</div><div class="label">Communities Served</div></div>
+      </div>
+    </div>
+  </section>
+  <section class="section alt" id="approach">
+    <div class="section-inner">
+      <h2>How We Work</h2>
+      <p class="sub">Transparency and accountability are at the heart of everything we do.</p>
+      <div class="steps">
+        <div class="step">
+          <div class="step-num">1</div>
+          <div><h4>Identify High-Impact Opportunities</h4><p>Our team rigorously vets organizations against measurable outcome criteria before any commitment is made.</p></div>
+        </div>
+        <div class="step">
+          <div class="step-num">2</div>
+          <div><h4>Mobilize Donors and Partners</h4><p>We match donors to causes that align with their values and build long-term relationships between funders and communities.</p></div>
+        </div>
+        <div class="step">
+          <div class="step-num">3</div>
+          <div><h4>Deploy and Monitor Funds</h4><p>Grants are disbursed with clear milestones. We publish regular impact reports so every stakeholder can see the results.</p></div>
+        </div>
+        <div class="step">
+          <div class="step-num">4</div>
+          <div><h4>Scale What Works</h4><p>Proven programs receive renewed or increased funding, and learnings are shared openly to lift the entire philanthropic sector.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="cta" id="get-involved">
+    <h2>Ready to Make a Difference?</h2>
+    <p>Whether you are an individual donor, a corporate partner, or a nonprofit seeking support, there is a place for you at Totals Inc.</p>
+    <a href="mailto:hello@totals-inc.com" class="btn">Get In Touch</a>
+    <a href="#mission" class="btn-outline">Learn More</a>
+  </section>
+  <footer>
+    <p>&copy; 2026 Totals Inc. &mdash; <a href="mailto:hello@totals-inc.com">hello@totals-inc.com</a> &mdash; All rights reserved.</p>
+  </footer>
+</body>
+</html>
